@@ -1,0 +1,68 @@
+{
+  "name": "ng-anonymize-app",
+  "description": "Container app for ng-anonymize: data anonymization library for Angular",
+  "version": "0.1.5",
+  "keywords": [
+    "angular",
+    "data-anonymization",
+    "anonymize",
+    "anonymization",
+    "privacy-protection",
+    "gdpr"
+  ],
+  "author": "Son Nguyen",
+  "homepage": "https://nganon.bachmi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonbachmi/NgAnonymize.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build ng-anonymize-app --prod",
+    "build:lib": "ng build ng-anonymize --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "dependencies": {
+    "@angular/animations": "^9.0.7",
+    "@angular/common": "^9.0.7",
+    "@angular/compiler": "^9.0.7",
+    "@angular/core": "^9.0.7",
+    "@angular/forms": "^9.0.7",
+    "@angular/platform-browser": "^9.0.7",
+    "@angular/platform-browser-dynamic": "^9.0.7",
+    "@angular/router": "^9.0.7",
+    "ng-anonymize": "^0.1.8",
+    "prismjs": "^1.23.0",
+    "rxjs": "^6.5.5",
+    "tslib": "^1.13.0",
+    "zone.js": "^0.10.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.1000.5",
+    "@angular-devkit/build-ng-packagr": "^0.900.7",
+    "@angular/cli": "^9.0.7",
+    "@angular/compiler-cli": "^9.0.7",
+    "@angular/language-service": "^9.0.7",
+    "@types/jasmine": "^3.5.12",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.12.53",
+    "codelyzer": "^5.2.2",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.5.4",
+    "ng-packagr": "^10.1.1",
+    "prettier": "^1.19.1",
+    "protractor": "^5.4.4",
+    "ts-node": "~8.3.0",
+    "tslint": "~5.18.0",
+    "typescript": "~3.7.5"
+  }
+}
